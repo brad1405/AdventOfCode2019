@@ -141,12 +141,6 @@ def plot2withoutsteps():
         allline2coordswithoutsteps.append(xpos + ":" + ypos)
 
 plotline1()
-time.sleep(3)
-print(stepcount1)
 plotline2()
-time.sleep(3)
-print(stepcount2)
 plot2withoutsteps()
-print(allline2coordswithoutsteps)
-time.sleep(10)
 checkforintercepts()
